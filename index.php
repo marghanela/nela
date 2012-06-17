@@ -64,6 +64,9 @@
 
     </div>
     <div id="content">
+
+        <div id="slide"></div>
+
         <div id="sidebar" class="column">
             <h2>Menu Andalan</h2>
 
@@ -88,8 +91,6 @@
 
             <p class="product-title"><a href="#">Jl. Patehan Lor Yogyakarta</a></p>
         </div>
-
-        <div id="slide"></div>
 
         <div>
             <div id="main" class="column">
