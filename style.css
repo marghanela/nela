@@ -1,0 +1,164 @@
+/* 
+Nama	: NELA MARGHANIYATA
+Kelas	: 10.11.3579
+*/
+
+body{
+    font-family: verdana, arial;
+    margin:0;
+    padding:0;
+    background:#330000;
+    color:#847a52;
+    line-height:1.5em;
+    letter-spacing:0.7px;
+}
+h2{margin:0; padding:10px 0 0 0;color:#9c9062;border-bottom:1px dotted #ece3c8; font-size:18px;font-family: 'Electrolize', sans-serif;}
+a{text-decoration:none; color:#9c9062; font-weight:bold}
+h2 a{color:#9c9062}
+a:hover{color:#000}
+ul, ul li {margin:0}
+
+ 
+#container{
+    width:800px;
+    padding:0 5px;
+    margin:0 auto;
+    background:#993300;
+}
+ 
+    #header{
+        height:255px;
+        background:#FFFFFF top center;
+    }
+ 
+        #header #menu{
+            height:120px;
+            position: center;
+            top:20px;
+            left:20px;
+        }
+ 
+            #header #menu ul{
+                list-style-type:none;
+                margin:0;
+                padding:0;
+            }
+ 
+                #header #menu ul li{
+                    display:inline;
+                    margin:0;
+                }
+ 
+                    #header #menu ul li a{
+                        font-weight:bold;
+                        color:#000;
+                        display:inline-block;
+                        padding:42px 37px;
+                        background:#FFFFFF center no-repeat;
+                    }
+ 
+                        #header #menu ul li a:hover,
+                        #header #menu ul li a.current{
+                            background:#FFFFFF center no-repeat;
+                        }
+        #header h1{
+            color:#9d211c;
+            width:415px;
+            height:51px;
+            margin:20px 20px 0px 65px;
+            font-size:50px;
+            text-shadow: 1px 1px 1px #fbf0d0, 3px 3px 5px #d8ba59;
+     
+        }
+        #header p{
+            width:425px;
+            text-align:right;
+            margin-left:95px;
+            margin-top:0;
+        }
+#slide {
+    width:396px;
+    margin:0px auto 0 auto;
+    padding:0px;
+    position:relative;
+    z-index:5;
+    background:#fff;
+    -webkit-box-shadow:0 0 0 15px rgba(255,255,255,.3);
+    -moz-box-shadow:0 0 0 15px rgba(255,255,255,.3);
+    box-shadow:0 0 0 15px rgba(255,255,255,.3)
+}
+
+ 
+#content{
+    overflow:hidden;
+    border-top:1px solid #fbf0d0;
+    margin:0px; padding:0px;
+    background:url('images/bg.jpg');
+}
+#content #sidebar{
+    float:left;
+    width:224px;
+    padding:0 25px;
+}
+    .product{margin:10px 0;}
+    .product img{padding:3px; background:#f4f4f4; box-shadow: 1px 1px 1px #fbf0d0, 3px 3px 5px #f0e3be;}
+    .product img:hover{box-shadow: 1px 1px 1px #fbf0d0, 3px 3px 5px #d8ba59;}
+    .product-title{text-align:right}
+ 
+#main{
+    float:right;
+    width:500px;
+    padding:0 10px;
+}
+    #main #welcome{
+        overflow:hidden;
+    }
+        #main #welcome div{
+            font-style:italic;
+        }
+        #main #welcome img{
+            float:right;
+        }
+ 
+    #main  .post{
+        border-bottom:1px solid #ece3c8;
+        margin:10px 0;
+    }
+        #main p.meta{font-size:small}
+        #main .post img{
+            float:left;
+            background:#f7f7f7;
+            padding:5px;
+            margin:0 10px 10px 0;
+            box-shadow: 1px 1px 1px #fbf0d0, 3px 3px 5px #f0e3be;
+        }
+        #main .post img:hover{box-shadow: 1px 1px 1px #fbf0d0, 3px 3px 5px #d8ba59;}
+        #main .comment-post{
+            margin:5px;
+            display:block;
+            border-bottom:1px dotted #9c9062;
+            min-height:130px;
+        }
+        #main .comment-post img{
+            background:#f7f7f7;
+            float:left;
+            padding:5px;
+            margin:0 10px 10px 0;
+        }
+			
+#footer{
+    clear:both;
+    font-size:small;
+    height:37px;
+    padding:2px 0 18px 0;
+    text-align:center;
+    color:#f5df9f;
+    background:#993300;
+}
+#footer a{color:#eddeb2}
+#footer #footer-menu ul{
+    list-style:none;
+}
+#footer #footer-menu ul li,
+#footer #footer-menu ul li a {display:inline;color:#f5df9f; padding:0 5px}
+
